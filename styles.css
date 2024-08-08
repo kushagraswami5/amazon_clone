@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 160px;
+    position: relative;
+
+}
+
+.logo{
+    background-image: url(logo.png);
+    height: 50px;
+    width: 146px;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.box2{
+    height: 50px;
+    width: 70px;
+
+    
+}
+.pin-icon{
+    display: flex;
+}
+.Deliver{
+    margin-top: 8px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.sm{
+    font-size: 12px;
+}
+.md{
+    font-size: 14px;
+}
+.cart{
+    display: flex;
+}
+.car{
+    font-size: 1.4rem;
+}
+.ca{
+    margin-top: 10px;
+}
+.panel{
+    display: flex;
+    gap: 10px;
+    background-color: #232e3f;
+    color: white;
+    height: 40px;
+    align-items: center;
+
+}
+.pa{
+    padding: 9px;
+}
+.hero-section{
+    background-image: url(1.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    top: 320px;
+}
+.box{
+    width: 23%;
+    background-color: white;
+    height: 400px;
+    padding: 20px 0px 15px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.ele1{
+    grid-row-start: 2;
+}
+.ele2{
+    grid-row-start: 2;
+}
+.ele3{
+    grid-row-start: 3;
+}
+.ele4{
+    grid-row-start: 3;
+}
+.cabin{
+    grid-row-start: 2;
+}
+.backtop{
+    display: flex;
+    margin-top: 160px;
+    background-color: #232e3f;
+    color: white;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+
+}
+.lastbox{
+    height: 300px;
+    padding-top: 10px;
+    background-color: #212a36;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
